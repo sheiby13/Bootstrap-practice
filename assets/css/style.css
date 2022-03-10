@@ -165,7 +165,32 @@ section{
     color: #fff;
 }
 /*portfolio--------*/
-
+.project-wrapper{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.project-wrapper img{
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+.project-wrapper .btn{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0; 
+}
+.project-wrapper:hover .btn-brand{
+    top: 50%;
+    opacity: 1;
+    transition: all 1s ease;
+}
+.project-wrapper:hover img{
+    transform: scale(1.1); 
+    filter: blur(2px);
+}
 /*reviews----------*/
 
 /*team-------------*/
