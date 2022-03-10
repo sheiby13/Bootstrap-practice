@@ -25,12 +25,34 @@ a{
 a:hover{
     color: var(--brand);
 }
+a.custom-link{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 14px; 
+}
 img{
     width: 100%;
 }
 section{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.section-intro{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.section-intro p{
+    max-width: 500px;
+    margin: auto;
+}
+.custom-card{
+    transition: all .4s ease;
+    background-color: #fff; 
+    border-radius: var(--border-radius);
+}
+.custom-card:hover{
+    box-shadow: var(--shadow);
+    transform: translateY(-5px);
 }
 /*hero-------------*/
 #hero{
@@ -102,9 +124,30 @@ section{
 .navbar .navbar-nav .nav-link:active{
     color: var(--brand);
 }
-
 /*services---------*/
-
+.service{
+    padding: 44px 24px;
+    text-align: center;
+}
+.icon-box{
+    width: 80px;
+    height: 80px;
+    background-color: var(--brand);
+    color: #fff;
+    border-radius: var(--border-radius);
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+.service h5{
+    margin-top: 28px;
+    margin-bottom: 12px; 
+}
+.service p{
+    font-size: 14px;
+}
 /*cta--------------*/
 
 /*portfolio--------*/
