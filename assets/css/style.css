@@ -107,7 +107,6 @@ section{
 .btn-brand{
     background-color:var(--brand);
     color: #fff;
-    
 }
 .col-md-3{
     justify-content: end; 
@@ -192,7 +191,39 @@ section{
     filter: blur(2px);
 }
 /*reviews----------*/
-
+#testimonials{
+    background:linear-gradient(rgba(0, 0, 0, .8),rgba(0, 0, 0, .8)), url(../img/cover3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+#testimonials .section-intro h1, #testimonials .section-intro  p{
+    color: #fff;
+}
+.review{
+    margin-right: 15px;
+    padding: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
+}
+.review .starts{
+    color: orange;
+}
+.review p{
+    color: rgba(255,255, 255, .5);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.review h6, .review small{
+    color: #fff;
+}
+.review span{
+    color: var(--brand);
+}
+.review img{
+    width: 75px !important; 
+    border-radius: 100px;
+}
 /*team-------------*/
 
 /*milestone--------*/
