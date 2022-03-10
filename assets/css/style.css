@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600;700;800&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+:root {
+    --brand: #B33030;
+    --body: #606060;
+    --dark: #19282F;
+    --border-radius: 4px;
+    --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+/*reset & helpers---*/
+body{
+    font-family: "Source sans Pro", sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700; 
+    color: var(--dark);
+    font-family: "Domine", sans-serif;
+}
+a{
+    color: var(--dark);
+    text-decoration: none;
+    transition: all 0.4s linear; 
+}
+a:hover{
+    color: var(--brand);
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*hero-------------*/
+#hero{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed; 
+}
+#hero h1{
+    font-weight: 700;
+}
+#hero h1,
+#hero p{
+    color: #fff;
+}
+#hero p{
+    max-width: 500px;
+    margin: 12px auto 28px auto;
+}
+#hero .input-group{
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
+}
+#hero .input-group input{
+    border: none;
+    background-color: transparent; 
+    color: #fff;
+}
+#hero .input-group input::placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+#hero .input-group input:focus{
+    box-shadow: none;
+}
+/*button---------*/
+.btn{
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: var(--border-radius);
+    transition: all 0.4s ease; 
+}
+.btn:hover{
+    transform: translateY(-2px);
+}
+.btn-brand{
+    background-color:var(--brand);
+    color: #fff;
+}
+.btn-brand:hover{
+    color: #fff;
+}
+/* navbar */
+.navbar.bg-white{
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: var(--brand);
+}
+
+/*services---------*/
+
+/*cta--------------*/
+
+/*portfolio--------*/
+
+/*reviews----------*/
+
+/*team-------------*/
+
+/*milestone--------*/
+
+/*blog-------------*/
+
+/*contact----------*/
+
+/*Footer-----------*/
