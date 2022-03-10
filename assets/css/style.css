@@ -107,6 +107,10 @@ section{
 .btn-brand{
     background-color:var(--brand);
     color: #fff;
+    
+}
+.col-md-3{
+    justify-content: end; 
 }
 .btn-brand:hover{
     color: #fff;
@@ -149,7 +153,17 @@ section{
     font-size: 14px;
 }
 /*cta--------------*/
-
+#cta{
+    padding-top: 70px;
+    padding-bottom:70px;
+    background:linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+#cta h2, #cta p{
+    color: #fff;
+}
 /*portfolio--------*/
 
 /*reviews----------*/
