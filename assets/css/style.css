@@ -273,7 +273,29 @@ section{
     transform: scale(1.1); 
 }
 /*milestone--------*/
-
+#milestone{
+    background:linear-gradient(rgba(0, 0, 0, .8),rgba(0, 0, 0, .8)), url(../img/cover3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    padding-top: 70px;
+    padding-bottom: 70px; 
+    text-align: center;
+}
+.counter .divider{
+    width: 70px;
+    height: 2px;
+    background-color: var(--brand); 
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+}
+.counter h1{
+    line-height: 1;
+}
+.counter h1, .counter p{
+    color: #fff; 
+}
 /*blog-------------*/
 
 /*contact----------*/
